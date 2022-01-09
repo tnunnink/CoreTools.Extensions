@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{8A624663-E629-46A8-9752-3E4101D45032}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E8326704-B092-44D9-9453-8902912DB3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Tests", "..\ui.wpf\Tests\Extensions.Tests\Extensions.Tests.csproj", "{32BE799A-0FE3-4B5A-AF63-911612EFD40B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{8A624663-E629-46A8-9752-3E4101D45032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A624663-E629-46A8-9752-3E4101D45032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A624663-E629-46A8-9752-3E4101D45032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BE799A-0FE3-4B5A-AF63-911612EFD40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BE799A-0FE3-4B5A-AF63-911612EFD40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BE799A-0FE3-4B5A-AF63-911612EFD40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BE799A-0FE3-4B5A-AF63-911612EFD40B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32BE799A-0FE3-4B5A-AF63-911612EFD40B} = {E8326704-B092-44D9-9453-8902912DB3B2}
 	EndGlobalSection
 EndGlobal
